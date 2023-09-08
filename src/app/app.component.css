@@ -1,0 +1,36 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+html{
+    background-image: url('../assets/wetbread.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #bc0606;
+    color: white;
+}
+
+  .toolbar img {
+    position: absolute;
+    left: 47.5%;
+    float: none;
+  }
+
+  .toolbar #spicy-bois-youtube {
+    height: 40px;
+    margin: 0 16px;
+    color: wheat;
+  }
