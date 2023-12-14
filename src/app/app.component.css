@@ -1,7 +1,6 @@
 :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
-    color: #333;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,24 +12,65 @@ html{
     width: 100%;
 }
 
+body{
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .toolbar {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
     background-color: #bc0606;
-    color: white;
+    display: flex;
+    justify-content: center;
 }
 
-  .toolbar img {
-    position: absolute;
-    left: 47.5%;
-    float: none;
-  }
+.toolbar #spicy-bois-youtube {
+  height: 40px;
+  margin: 0 16px;
+}
 
-  .toolbar #spicy-bois-youtube {
-    height: 40px;
-    margin: 0 16px;
-    color: wheat;
-  }
+.spicy-bois-ant{
+
+}
+
+.button-1{
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.button-2{
+  padding-right: 10%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.button-3{
+  padding-right: 5%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.button-4{
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: large;
+  font-weight: 1000;
+}
