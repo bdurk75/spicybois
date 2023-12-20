@@ -1,21 +1,19 @@
 <!-- Toolbar -->
 <header>
   <div class="toolbar" role="banner">
-    <button mat-button class="button-1">Home</button>
-    <button mat-button class="button-2">Roster</button>
+    <a mat-button class="button-1" href="">Home</a>
+    <a mat-button class="button-2" href="roster/">Roster</a>
     <img class="spicy-bois-ant"
       width="90"
       alt="Spicy Bois Logo"
       src="assets/spicy-bois-ant.png"
     />
-    <button mat-button class="button-3">Schedule</button>
-    <button mat-button class="button-4">Pictures</button>
+    <a mat-button class="button-3" href="schedule/">Schedule</a>
+    <a mat-button class="button-4" href="pictures/">Pictures</a>
     
   </div>
 </header>
 
-<body>
-  <div>
-    POGGERS
-  </div>
-</body>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
