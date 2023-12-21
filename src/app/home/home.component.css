@@ -1,4 +1,7 @@
 .content{
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
 }
