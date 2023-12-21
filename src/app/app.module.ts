@@ -10,6 +10,7 @@ import { RosterComponent } from './roster/roster.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { MatTableModule } from '@angular/material/table';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { MatTableModule } from '@angular/material/table';
     AppRoutingModule,
     MatExpansionModule,
     MatButtonModule,
-    MatTableModule
+    MatTableModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
