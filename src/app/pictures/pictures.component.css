@@ -1,10 +1,41 @@
-.content{
+.wetbread{
     display: flex;
     justify-content: center;
     padding: 5%;
     background-color: black;
 }
 
-.wetbread{
+.wetbread1{
     width: 90%;
 }
+
+.wetbread2{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: black;
+}
+
+.wetbread3{
+    width: 45%;
+    padding-right: 2%;
+}
+
+.wetbread4{
+    width: 45%;
+    padding-left: 2%;
+}
+
+.wetbread5{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: black;
+}
+
+.wetbread6{
+    width: 90%;
+}
+
+
+

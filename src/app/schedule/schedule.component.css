@@ -1,0 +1,21 @@
+.content{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.table {
+    padding: 2%;
+    width: 100%;
+    background-color: #bc0606;
+}
+
+.mat-cell{
+    font-size: large;
+    font-weight: 500;
+}
+
+.mat-header-cell{
+    font-size: large;
+    font-weight: 900;
+}

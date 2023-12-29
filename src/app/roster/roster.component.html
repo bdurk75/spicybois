@@ -1,24 +1,19 @@
 <div class="content">
     <table mat-table [dataSource]="dataSource" class="table">
 
-        <ng-container matColumnDef="position">
-          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Position </th>
-          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.position}} </td>
+        <ng-container matColumnDef="number">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Number </th>
+          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.number}} </td>
         </ng-container>
       
         <ng-container matColumnDef="name">
           <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Name </th>
           <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.name}} </td>
         </ng-container>
-      
-        <ng-container matColumnDef="height">
-            <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Height </th>
-            <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.height}} </td>
-        </ng-container>
-
-        <ng-container matColumnDef="weight">
-          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Weight </th>
-          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.weight}} </td>
+        
+        <ng-container matColumnDef="position">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Position </th>
+          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.position}} </td>
         </ng-container>
       
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

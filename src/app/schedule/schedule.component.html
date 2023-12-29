@@ -1,3 +1,27 @@
 <div class="content">
-    <p>schedule works!</p>
+    <table mat-table [dataSource]="dataSource" class="table">
+
+        <ng-container matColumnDef="date">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Date </th>
+          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.date}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="time">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Time </th>
+          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.time}} </td>
+        </ng-container>
+      
+        <ng-container matColumnDef="opponent">
+            <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Opponent </th>
+            <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.opponent}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="location">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Location </th>
+          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.location}} </td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
 </div>
