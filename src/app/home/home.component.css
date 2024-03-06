@@ -1,7 +1,19 @@
 .content{
     background-color: black;
     color: white;
-    display: flex;
+    display:flex;
     justify-content: center;
-    padding: 10%;
+    align-items: center;
+    padding-top: 3%;
+}
+.content1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.andu{
+    font-size:xx-large;
+    font-weight: 500;
+    font-family: "Arial", sans-serif;
 }
