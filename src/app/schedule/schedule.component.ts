@@ -9,11 +9,16 @@ export interface SpicyBoisRoster {
 }
 
 const SPICYBOIS_DATA: SpicyBoisRoster[] = [
-  {date: '1/1', time: '9:00 a.m.', opponent: "Real Madrid CF", location: "Anders Road"},
-  {date: '1/8', time: '1:00 p.m.', opponent: "Manchester United FC", location: "Anders Road"},
-  {date: '1/15', time: '10:30 a.m.', opponent: "FC Barcelona", location: "Camp Nou"},
-  {date: '1/22', time: '4:00 p.m.', opponent: "Liverpool FC", location: "Anders Road"},
-  {date: '1/45', time: '11:00 a.m.', opponent: "FC Bayern Munich", location: "Anders Road"}
+  {date: '3/9', time: '10:00 a.m.', opponent: "Inter Phila", location: "Germantown Supersite"},
+  {date: '3/16', time: '1:30 p.m.', opponent: "@Berber United", location: "Germantown Supersite"},
+  {date: '3/30', time: '10 a.m.', opponent: "Fishtown FC", location: "Bonner High School"},
+  {date: '4/6', time: '8:15 a.m.', opponent: "@Statesmen FC", location: "Bonner High School"},
+  {date: '4/20', time: '8:15 a.m.', opponent: "@OU Pride", location: "Bonner High School"},
+  {date: '4/27', time: '11:15 a.m.', opponent: "@FC Cornos", location: "Ramp Field"},
+  {date: '5/4', time: '10:45 a.m.', opponent: "@Philly Saint-Germain", location: "Academy of New Church"},
+  {date: '5/11', time: '10:00 a.m.', opponent: "Barenjager SC", location: "Bristol Township Park"},
+  {date: '5/18', time: '10:00 a.m.', opponent: "Inter Phila", location: "Germantown Supersite"},
+  {date: '6/1', time: '11:45 a.m.', opponent: "@Berber United", location: "Bonner High School"},
 ];
 
 @Component({
