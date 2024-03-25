@@ -21,6 +21,11 @@
           <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.location}} </td>
         </ng-container>
       
+        <ng-container matColumnDef="result">
+          <th mat-header-cell class="mat-header-cell" *matHeaderCellDef> Result </th>
+          <td mat-cell class="mat-cell" *matCellDef="let element"> {{element.result}} </td>
+        </ng-container>
+
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
