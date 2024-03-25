@@ -28,7 +28,7 @@ const SPICYBOIS_DATA: SpicyBoisRoster[] = [
   {number:"22", position: 'RB', name: 'Brendan McLaughlin'},
   {number:"23", position: 'CM', name: 'Jake Guevara'},
   {number:"24", position: 'ST', name: 'Enrico Romano'},
-  {number:"25", position: 'LM/LB', name: 'Moussa Donzo'},
+  {number:"25", position: 'LM/LB', name: 'Moussa Kanate'},
   {number:"27", position: 'FW', name: 'Matt Farrell'},
   {number:"30", position: 'FW', name: 'Brandon Ortiz'},
   {number:"31", position: 'FB', name: 'Jose Ortiz'},
