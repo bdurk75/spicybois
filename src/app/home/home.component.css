@@ -10,10 +10,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2%;
+    background-color: black;
+    padding-bottom: 10%;
 }
 
-.andu{
-    font-size:xx-large;
-    font-weight: 500;
-    font-family: "Arial", sans-serif;
-}
