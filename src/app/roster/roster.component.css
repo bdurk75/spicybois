@@ -2,7 +2,7 @@
   padding: 2%;
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: #bc0606;
 }
 
 .table {
@@ -20,3 +20,4 @@
   font-size: large;
   font-weight: 900;
 }
+

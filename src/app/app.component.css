@@ -10,6 +10,7 @@ html{
     background-image: url('../assets/wetbread.jpg');
     height: 100%;
     width: 100%;
+    background-color: #bc0606;
 }
 
 .container{
@@ -21,52 +22,43 @@ html{
 }
 
 .toolbar {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
+    height: 100px;
+    width: 100%;
     background-color: #bc0606;
     display: flex;
-    justify-content: center;
 }
 
-.toolbar #spicy-bois-youtube {
-  height: 40px;
-  margin: 0 16px;
+.menu-button{
+  left:1%;
+  top:25%;
+  justify-content: flex-start;
 }
 
-.button-1{
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: large;
-  font-weight: 1000;
+.spicy-bois-ant{
+  right: 1;
+  left:20%;
+  justify-content: flex-end;
+  padding-left: 90%;
+  padding-top:.5%;
+  padding-bottom:.5%;
 }
 
-.button-2{
-  padding-right: 10%;
-  padding-left: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: large;
-  font-weight: 1000;
+
+
+mat-sidenav {
+  background-color: white;
+  height: 200%;
+  padding-top:15%;
+  padding-bottom:15%;
+  .entry{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
 }
 
-.button-3{
-  padding-right: 5%;
-  padding-left: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: large;
-  font-weight: 1000;
+body {
+  background-color: black;
 }
 
-.button-4{
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: large;
-  font-weight: 1000;
-}

@@ -11,6 +11,12 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { MatTableModule } from '@angular/material/table';
 import { RouterModule } from '@angular/router';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { FormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatListModule} from '@angular/material/list'; 
+
 
 
 @NgModule({
@@ -27,7 +33,12 @@ import { RouterModule } from '@angular/router';
     MatExpansionModule,
     MatButtonModule,
     MatTableModule,
-    RouterModule
+    RouterModule,
+    MatSidenavModule,
+    FormsModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

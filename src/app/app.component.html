@@ -1,19 +1,44 @@
 <!-- Toolbar -->
-<header>
-  <div class="toolbar" role="banner">
-    <a mat-button class="button-1" href="">Home</a>
-    <a mat-button class="button-2" href="roster/">Roster</a>
-    <img class="spicy-bois-ant"
-      width="90"
-      alt="Spicy Bois Logo"
-      src="assets/spicy-bois-ant.png"
-    />
-    <a mat-button class="button-3" href="schedule/">Schedule</a>
-    <a mat-button class="button-4" href="https://icarusfc.com/collections/spicy-boi-club-shop">Shop</a>
-    
-  </div>
-</header>
-
-<div class="container">
-  <router-outlet></router-outlet>
+<div class="toolbar" role="banner">
+  <button class="menu-button" mat-icon-button aria-label="Menu icon" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  
+  <img class="spicy-bois-ant"
+    width="90"
+    alt="Spicy Bois Logo"
+    src="assets/spicy-bois-ant.png"
+  />
 </div>
+<div class="content">
+  <mat-sidenav-container autosize>
+    <mat-sidenav [mode]="isMobile ? 'over' : 'side'" [opened]="isMobile ? 'false' : 'true'">
+      <mat-nav-list *ngIf="!isCollapsed">
+        <a href="" mat-list-item>
+          <span class="entry">
+            <span>Home</span>
+          </span>
+        </a>
+        <a href="roster/" mat-list-item>
+          <span class="entry">
+            <span>Roster</span>
+          </span>
+        </a>
+        <a href="schedule/" mat-list-item>
+          <span class="entry">
+            <span>Schedule</span>
+          </span>
+        </a>
+        <a href="https://icarusfc.com/collections/spicy-boi-club-shop" mat-list-item>
+          <span class="entry">
+            <span>Store</span>
+          </span>
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+    
+    <router-outlet></router-outlet>
+    
+  </mat-sidenav-container>
+</div>
+
