@@ -1,17 +1,19 @@
 .content{
     background-color: #bc0606;
-    color: black;
+    color: white;
+    font-size:45px;
     display:flex;
     justify-content: center;
     align-items: center;
     padding-top: 3%;
+    background-image: url("/assets/spicy-bois-background.png");
 }
 .content1{
     display:flex;
     justify-content: center;
     align-items: center;
     padding-top: 2%;
-    background-color: #bc0606;
+    background-image: url("/assets/spicy-bois-background.png");
     padding-bottom: 10%;
 }
 

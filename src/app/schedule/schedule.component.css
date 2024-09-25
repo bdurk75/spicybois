@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     background-color: #bc0606;
+    background-image: url("/assets/spicy-bois-background.png");
+
 }
 
 .table {
