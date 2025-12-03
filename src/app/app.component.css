@@ -24,7 +24,7 @@ html{
 .toolbar {
     height: 100px;
     width: 100%;
-    background-color: #bc0606;
+    background-color: black;
     display: flex;
 }
 
@@ -32,6 +32,7 @@ html{
   left:1%;
   top:25%;
   justify-content: flex-start;
+  color: #bc0606;
 }
 
 .spicy-bois-ant{
@@ -49,13 +50,13 @@ mat-sidenav {
   height: 200%;
   padding-top:15%;
   padding-bottom:15%;
-  background-color: #bc0606;
+  background-color: black;
   color: white;
   .entry{
       display: flex;
       align-items: center;
       justify-content: center;
-      color: black;
+      color: white;
       font-size: 20px;
       font-weight:450;
   }
